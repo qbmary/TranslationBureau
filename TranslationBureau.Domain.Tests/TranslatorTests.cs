@@ -46,7 +46,7 @@ public class TranslatorTests
             "+375291234567", "ivanov@example.com", "высшая", 22m);
 
         Assert.Equal("Иванов Иван Иванович", translator.FullName);
-        Assert.Equal(25m, translator.RatePerUnit);
+        Assert.Equal(22m, translator.RatePerUnit);
         Assert.True(translator.IsActive);
     }
 
