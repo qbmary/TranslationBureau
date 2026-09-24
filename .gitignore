@@ -488,4 +488,4 @@ publish/
 *.db-shm
 *.db-wal
 *.mdf
-*.ldf
+*.ldfpublish-*/
